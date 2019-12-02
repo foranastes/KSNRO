@@ -1,0 +1,25 @@
+/* Testimonial */
+.testiFullText ul li {
+	display: inline-block;
+    width: 45%;
+    white-space: normal;
+    overflow: hidden;
+    margin: 1% auto;
+}
+/*  Testimonial */
+/* Footermenus */
+#footermenu {
+	width:100%;
+	padding:50px 0;
+	text-align:center;
+	white-space:normal;
+}
+.footermenus {
+	display:inline-block;
+	text-align:left;
+	width:100px;
+	overflow:visible;
+	white-space:normal;
+	padding:0 2%;
+}
+/* Footermenus */

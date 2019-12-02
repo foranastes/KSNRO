@@ -1,0 +1,87 @@
+$(".owl-one").owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:false,
+            loop:false
+        }
+    }
+});
+jQuery(".owl-two").owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+  	autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:6,
+            nav:false,
+            loop:true
+        }
+    }
+});
+$(".owl-three").owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+	autoplay:true,
+	autoplaySpeed:500,
+	autoplayTimeout: 1000,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:false,
+            loop:true
+        }
+    }
+});
+$(".owl-four").owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:false
+        }
+    }
+});

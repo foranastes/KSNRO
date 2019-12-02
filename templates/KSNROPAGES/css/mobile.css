@@ -1,0 +1,262 @@
+/* 
+Author: Anastes Mp
+Email: foranastes@gmail.com
+*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+		white-space:normal;
+        vertical-align: top;
+}
+body {
+	font-family: 'ABeeZee', sans-serif;
+	font-size:100%;
+}
+#mainwrapper {
+	width:100%;
+	height:auto;
+	font-family:inherit;
+	position:relative;
+	overflow:hidden;
+}
+#topbar {
+	padding:5px 0;
+	background-color:#000;
+}
+#tpbar_left, #tpbar_right{
+	display:block;
+	font-size:12px;
+	color:#dbdbdb;
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	padding:3px 0;
+}
+#tpbar_left {
+	display:block;
+}
+#tpbar_right {
+	padding-right:0%;
+	text-align:center;
+}
+#tpbar_left a i{
+	padding:0 3px;
+	font-size:12px;
+}
+#tpbar_left a, #tpbar_right a {
+	text-decoration:none;
+	color:#dbdbdb;
+}
+.mod_search95 {
+	display:block;
+	margin:15px 0 5px 0;
+}
+.form-inline, .button, div.mod_search95 input[type="search"] {
+	background-color:#000;
+	color:#dbdbdb;
+	display:inline;
+}
+/* Sticky menu starts*/
+#stickymenu.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+	background:#000;
+}
+.logo{position:absolute;top:0;left: 0;width:100%;height:46px;text-align:center;padding:10px 0 0 0 ;float:none}
+.logo2{display:none}
+nav{width:100%; background-color:#000;}
+#cssmenu{width:100%;}
+#cssmenu ul{width:100%;display:none;}
+#cssmenu ul li{width:100%;border-top:1px solid #444}
+#cssmenu ul li:hover{background:#363636;}
+#cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
+#cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
+#cssmenu > ul > li{float:none}
+#cssmenu ul ul li a{padding-left:25px}
+#cssmenu ul ul li{background:#333!important;}
+#cssmenu ul ul li:hover{background:#363636!important}
+#cssmenu ul ul ul li a{padding-left:35px}
+#cssmenu ul ul li a{color:#ddd;background:none}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li.active > a{color:#fff}
+#cssmenu ul ul,#cssmenu ul ul ul{position:relative;left:0;width:100%;margin:0;text-align:left}
+#cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none}
+#cssmenu #head-mobile{display:block;padding:23px;color:#ddd;font-size:12px;font-weight:700}
+.button{width:55px;height:46px;position:absolute;right:0;top:0;cursor:pointer;z-index: 12399994;}
+.button:after{position:absolute;top:22px;right:20px;display:block;height:4px;width:20px;border-top:2px solid #dddddd;border-bottom:2px solid #dddddd;content:''}
+.button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top:16px;right:20px;display:block;height:2px;width:20px;background:#ddd;content:''}
+.button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #444;height:46px;width:46px;cursor:pointer}
+#cssmenu .submenu-button.submenu-opened{background:#262626}
+#cssmenu ul ul .submenu-button{height:34px;width:34px}
+#cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:after{top:15px;right:13px}
+#cssmenu .submenu-button.submenu-opened:after{background:#fff}
+#cssmenu .submenu-button:before{position:absolute;top:19px;right:22px;display:block;width:2px;height:8px;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:before{top:12px;right:16px}
+#cssmenu .submenu-button.submenu-opened:before{display:none}
+#cssmenu ul ul ul li.active a{border-left:none}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
+/* Sticky menu ends */
+/* Content Starts */
+#articletools {
+	position:relative;
+	display:block;
+	margin:0 auto;
+	top:0;
+	right:0;
+	padding: 10px;
+	text-align: center;
+	z-index:1;
+}
+.abouthd {
+	padding:50px 0;
+}
+#header {
+	width:100%;
+	height:200px;
+	position:relative;
+	top:0;
+	margin-bottom:0;
+	overflow:hidden;
+	background-color:#000;
+	white-space:normal;
+}
+h2.itemTitle {
+	font-size: 2em;
+	position: relative;
+	text-align:center;
+	white-space:normal;
+}
+#aboutwrapper {
+	width:85%;
+	margin:0 auto;
+	padding:0;
+}
+img.medium, img.small, img.medium-large, img.large {
+	display:block;
+	width:90% !important;
+	margin:0 auto;
+	height:auto;
+	padding:10px;
+}
+h2.newsTitle {
+	font-size:2em;
+}
+.newsbody {
+	width:100%;
+}
+/* Content Ends */
+/* Testimonial */
+.testiFullText ul li {
+	display: inline-block;
+    width: 90%;
+    white-space: normal;
+    overflow: hidden;
+    margin: 1% auto;
+}
+/*  Testimonial */
+#gallerybody {
+    width: 275px;
+}
+#resourcesbody {
+    width: 95%;
+}
+.resItemImageBlock {
+    height: 300px;
+}
+.itemContainer {
+	width:90%;
+}
+#resourcesbody h2 {
+	text-align:center;
+}
+/* Footermenus */
+#footermenu {
+	display:none;
+}
+#evoview {
+	width:100%;
+	margin:0 auto;
+}
+#contactform {
+    width: 90%;
+	margin:0 auto;
+    display: block;
+}
+.teamtext form input {
+    width: 100%;
+}
+#googlemap {
+    width: 95%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+#contactdetails {
+    width: 90%;
+    display: block;
+}
+#sidemenu {
+    display: block;
+    width: 100%;
+    background-color: #FFF;
+    padding: 20px 0;
+}
+#statewrapper {
+    display: block;
+    width: 90%;
+    padding: 25px 0 25px 0;
+    margin: 0 auto;
+}
+/* Headers */
+.abouthd {
+	background-image: url('/images/slide2.jpg');
+	background-size: cover;
+	padding: 80px 0;
+	position:relative;
+}
+.abouthd h1 {
+	text-align:center;
+	z-index:1;
+	position:relative;
+	color:#FFF;
+}
+.newshd {
+	background-image: url('/images/slide2.jpg');
+	background-size: cover;
+	padding: 80px 0;
+	position:relative;
+}
+.evolutionhd {
+	background-image: url('/images/slide2.jpg');
+	background-size: cover;
+	padding: 80px 0;
+	position:relative;
+}
+.evolutionhd h1 {
+	text-align:center;
+	color:#FFF;
+	z-index:1;
+	position:relative;
+}
+.galleryhd, .tesimonialhd, .resourceshd, .stateshd, .tesimonialhd  {
+	padding: 50px 0;
+}
+/* Header Ends */
+/* Footermenus */
+/* footer starts */
+
+/* footer ends */
+/*
+
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'ABeeZee', sans-serif;
+
+*/

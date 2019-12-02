@@ -1,0 +1,5 @@
+/.htaccess
+/administrator/cache/*
+/cache/*
+/tmp/*
+/robots.txt.dist

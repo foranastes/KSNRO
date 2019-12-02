@@ -1,0 +1,22 @@
+li.even, li.odd {
+	display:inline-block;
+	width: 45%;
+	height:auto;
+	margin:20px 2.5%;
+}
+/* Footermenus */
+#footermenu {
+	width:100%;
+	padding:50px 0;
+	text-align:center;
+	white-space:normal;
+}
+.footermenus {
+	display:inline-block;
+	text-align:left;
+	width:100px;
+	overflow:visible;
+	white-space:normal;
+	padding:0 2%;
+}
+/* Footermenus */
